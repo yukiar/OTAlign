@@ -4,6 +4,7 @@
 # Prerequisite
 - See `src/requirements.txt`
 - Please collect word alignment datasets: MultiMWA, Edinburgh++, MSR-RTE
+  - Place them in a `data/` directory
   - Preprocessing codes for Edinburgh++ and MSR-RTE are in `src/preprocess`
 
 # Unsupervised Word Alignment
