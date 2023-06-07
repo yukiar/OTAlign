@@ -20,9 +20,9 @@ $ python unsupervised_alignment.py --data $DATA --sure_and_possible --model bert
 # Supervised Word Alignment
 For details, please refer to the arguments in `src/supervised_alignment.py`
 
-:::note info
+**Note**
 Supervised word alignment uses hyperparameters estimated in the unsupervised setting. You first need to run unsupervised word alignment. 
-:::
+
 
 ``` shell
 SU_OUTDIR=../out/supervised/
