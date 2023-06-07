@@ -1,0 +1,30 @@
+patience_10:
+  sure:
+    uot:
+      lr: 1.3e-4
+    pot:
+      lr: 1.3e-4
+    ot:
+      lr: 1.3e-4
+  sure_and_possible:
+    uot:
+      lr: 7.0e-5
+    pot:
+      lr: 7.0e-5
+    ot:
+      lr: 5.0e-5
+patience_3:
+  sure:
+    uot:
+      lr: 1.3e-4
+    pot:
+      lr: 1.5e-4
+    ot:
+      lr: 1.5e-4
+  sure_and_possible:
+    uot:
+      lr: 9.0e-5
+    pot:
+      lr: 1.1e-4
+    ot:
+      lr: 7.0e-5

@@ -1,0 +1,38 @@
+sure_and_possible:
+    mtref:
+        distortion: 0.20
+        null_align: 1.00
+    msr:
+        distortion: 0.00
+        null_align: 0.80
+    edinburgh:
+        distortion: 0.10
+        null_align: 1.00
+    wiki:
+        distortion: 0.10
+        null_align: 1.00
+    newsela:
+        distortion: 0.20
+        null_align: 1.00
+    arxiv:
+        distortion: 0.20
+        null_align: 1.00
+sure:
+    mtref:
+        distortion: 0.00
+        null_align: 1.00
+    msr:
+        distortion: 0.00
+        null_align: 0.80
+    edinburgh:
+        distortion: 0.20
+        null_align: 0.95
+    wiki:
+        distortion: 0.10
+        null_align: 1.00
+    newsela:
+        distortion: 0.00
+        null_align: 1.00
+    arxiv:
+        distortion: 0.00
+        null_align: 1.00
