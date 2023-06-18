@@ -70,7 +70,7 @@ def select_from_list(input_list, indices):
 if __name__ == '__main__':
     corpus_path = '../../data/edinburgh/test.json'
     sure_and_possible = False
-    out_path = '../data/edinburgh/sure_'
+    out_path = '../../data/edinburgh/sure_'
 
     # Consolidate annotations
     sents1, sents2, alignments = load_Edinburgh_corpus(corpus_path, sure_and_possible)

@@ -58,7 +58,7 @@ if __name__ == '__main__':
     # out_path = '../data/RTE-2006-Aligned/sure-and-possible_'
     corpus_dir = '../../data/RTE-2006-Aligned/Test/'
     sure_and_possible = False
-    out_path = '../data/RTE-2006-Aligned/sure_'
+    out_path = '../../data/RTE-2006-Aligned/sure_'
 
     all_annotators = []
     for file_path in glob.glob(corpus_dir + '*.align.txt'):
