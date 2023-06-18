@@ -30,7 +30,7 @@ SU_OUTDIR=../out/supervised/
 BATCH=64
 PATIENCE=5
 
-$ python python supervised_alignment.py --batch $BATCH --out $SU_OUTDIR --data $DATA --sure_and_possible --model bert-base-uncased --ot_type $OT --weight_type $WT --dist_type $DT --seed $SEED --patience $PATIENCE --unsupervised_dir $UN_OUTDIR
+$ python python supervised_alignment.py --batch $BATCH --out $SU_OUTDIR --data $DATA --sure_and_possible --model bert-base-uncased --ot_type $OT --weight_type $WT --dist_type $DT --seed $SEED --patience $PATIENCE --unsupervised_dir $SU_OUTDIR
 ```
 
 # Citation
