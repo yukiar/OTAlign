@@ -35,7 +35,25 @@ $ python python supervised_alignment.py --batch $BATCH --out $SU_OUTDIR --data $
 
 # Citation
 Please cite our ACL2023 paper if you use this repository:
-> Yuki Arase, Han Bao, and Sho Yokoi. Unbalanced Optimal Transport for Unbalanced Word Alignment, in Proc. of the Annual Meeting of the Association for Computational Linguistics (ACL 2023), (July 2023, to appear). 
+> Yuki Arase, Han Bao, and Sho Yokoi. 2023. Unbalanced Optimal Transport for Unbalanced Word Alignment. In Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers), pages 3966–3986, Toronto, Canada. Association for Computational Linguistics.
+
+``` shell
+@inproceedings{arase-etal-2023-unbalanced,
+    title = "Unbalanced Optimal Transport for Unbalanced Word Alignment",
+    author = "Arase, Yuki  and
+      Bao, Han  and
+      Yokoi, Sho",
+    booktitle = "Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)",
+    month = jul,
+    year = "2023",
+    address = "Toronto, Canada",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2023.acl-long.219",
+    doi = "10.18653/v1/2023.acl-long.219",
+    pages = "3966--3986",
+    abstract = "Monolingual word alignment is crucial to model semantic interactions between sentences.In particular, null alignment, a phenomenon in which words have no corresponding counterparts, is pervasive and critical in handling semantically divergent sentences. Identification of null alignment is useful on its own to reason about the semantic similarity of sentences by indicating there exists information inequality. To achieve unbalanced word alignment that values both alignment and null alignment, this study shows that the family of optimal transport (OT), i.e., balanced, partial, and unbalanced OT, are natural and powerful approaches even without tailor-made techniques.Our extensive experiments covering unsupervised and supervised settings indicate that our generic OT-based alignment methods are competitive against the state-of-the-arts specially designed for word alignment, remarkably on challenging datasets with high null alignment frequencies.",
+}
+``` 
 
 # Contact 
 If you have any questions about codes in this repository, please contact Yuki Arase via email or simply post an issue :speech_balloon:
